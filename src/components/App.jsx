@@ -5,7 +5,7 @@ import TransactionHistory from 'components/TransactionHistory/TransactionHistory
 import friends from 'components/friends.json';
 import user from 'components/user.json';
 import data from 'components/data.json';
-import transactions from 'components/transaction.json';
+import transactions from 'components/transactions.json';
 
 export const App = () => {
     return (

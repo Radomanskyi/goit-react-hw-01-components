@@ -1,3 +1,9 @@
 .transactionHistory {
-    
+margin: 0 auto;
+}
+
+table {
+border: 1px solid black;
+width: 500px;
+border-collapse: collapse;
 }

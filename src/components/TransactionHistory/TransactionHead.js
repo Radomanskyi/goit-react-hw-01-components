@@ -2,7 +2,7 @@ import th from './TransactionHead.module.css';
 
 const TransactionHead = () => {
     return (
-  <thead>
+  <thead >
     <tr>
       <th className={th.headName}>Type</th>
       <th className={th.headName}>Amount</th>

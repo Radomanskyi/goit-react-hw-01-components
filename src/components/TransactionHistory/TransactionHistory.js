@@ -6,19 +6,15 @@ import trh from './TransactionHistory.module.css';
 function TransactionHistory({ items }) {
     return (
         <table className={trh.transactionHistory}>
-  <thead>
    <TransactionHead/>
-  </thead>
-
   <tbody>
     {items.map(item => (
-        <tr key={item.id}>
             <Transaction
+            key={item.id}
             type={item.type}
             amount={item.amount}
-            isOnline={item.currency}
+            currency={item.currency}
             />
-        </tr>
     ))}
   </tbody>
 </table>

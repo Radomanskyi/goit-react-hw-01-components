@@ -8,7 +8,7 @@ const Transaction = ({
     currency
 }) => {
     return (
-    <tr>
+    <tr className={tr.transactionColor}>
       <td className={tr.transaction}>{type}</td>
       <td className={tr.transaction}>{amount}</td>
       <td className={tr.transaction}>{currency}</td>
